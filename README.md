@@ -13,6 +13,18 @@
  
 <br/>
 
+-  &nbsp; **&nbsp;SQL &nbsp;Syntax**
+  
+   - &nbsp; Insert &nbsp;:&nbsp; ```INSERT INTO [table_name] (column1, column2, ...) VALUES (value1, value2, ...);```
+   
+   - &nbsp; Select &nbsp;:&nbsp; ```SELECT [comlumn_name] FROM [table_name];```
+
+   - &nbsp; Update &nbsp;:&nbsp;```UPDATE [table_name] SET [column1 = value1] WHERE [condition];```
+
+   - &nbsp; Delete &nbsp;:&nbsp; ```DELETE FROM [table_name] WHERE [condition];```
+
+<br/><br/><br/>
+
 ## Index
 -  &nbsp; DBMS
 
