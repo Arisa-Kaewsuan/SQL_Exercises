@@ -26,7 +26,7 @@
 <br/><br/><br/>
 
 ## Exercise_1 
-1.  &nbsp;&nbsp; ดึงทุก column จากตาราง staff มาดู &nbsp;&nbsp; [[เฉลย]]()
+1.  &nbsp;&nbsp; ดึงทุก column จากตาราง staff มาดู &nbsp;&nbsp; [[เฉลย]](https://github.com/Arisa-Kaewsuan/SQL_Exercises/blob/main/exercise_1/exercise_1_01.sql)
 2.  &nbsp;&nbsp; -
 3.  &nbsp;&nbsp; -
 4.  &nbsp;&nbsp;
