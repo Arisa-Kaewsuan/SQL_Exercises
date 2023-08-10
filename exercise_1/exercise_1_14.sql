@@ -1,0 +1,2 @@
+-- เขียนคำสั่ง sql แสดงข้อมูลจากตาราง customer โดยแสดงข้อมูลทั้งหมดของลุกค้าที่ last_name มีตัวอักษรตัวที่สองเป็น E และ store_id เป็น 1
+SELECT * FROM customer WHERE last_name LIKE '_E%' AND store_id = 1

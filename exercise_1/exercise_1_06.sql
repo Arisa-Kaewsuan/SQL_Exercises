@@ -1,0 +1,1 @@
+SELECT * FROM customer WHERE customer_id BETWEEN 100 AND 200

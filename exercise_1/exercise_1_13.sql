@@ -1,0 +1,2 @@
+-- เขียนคำสั่ง sql แสดงข้อมูลจากตาราง address โดยแสดงข้อมูลทั้งหมดของที่อยู่ที่ address มีตัวเลข 18 อยู่แต่ไม่มีคำว่า Parkway
+SELECT * FROM address WHERE address LIKE '%18%' AND address NOT LIKE '%Parkway%'
