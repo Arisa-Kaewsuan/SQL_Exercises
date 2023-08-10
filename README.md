@@ -1,10 +1,10 @@
 # SQL &nbsp;Exercises
 
--  &nbsp; วิธีเขียนโปรแกรมภาษา &nbsp;SQL
+-  &nbsp; **วิธีเขียนโปรแกรมภาษา &nbsp;SQL**
 
        1.  SQL เป็นภาษาที่ไว้สำหรับจัดการ ฐานข้อมูล (Database) ดังนั้นต้องมีฐานข้อมูลให้จัดการก่อน
    
-    จะสร้างเองก็ได้โดยใช้ &nbsp;DBMS &nbsp;อย่าง &nbsp;phpMyAdmin&nbsp; แต่ในตัวอย่างนี้เราจะใช้ &nbsp;Free &nbsp;sample &nbsp;data&nbsp; ของ &nbsp;MySQL&nbsp; ที่ชื่อ &nbsp;[sakila](https://dev.mysql.com/doc/index-other.html)
+     > จะสร้างเองก็ได้โดยใช้ &nbsp;DBMS &nbsp;อย่าง &nbsp;phpMyAdmin&nbsp; แต่ในตัวอย่างนี้เราจะใช้ &nbsp;Free &nbsp;sample &nbsp;data&nbsp; ของ &nbsp;MySQL&nbsp; ที่ชื่อ &nbsp;[sakila](https://dev.mysql.com/doc/index-other.html)
 
        2.  ต้องมี Editor ในการเขียน SQL แล้วดูผลลัพธ์ ทำได้หลายวิธีเลือกตามสะดวก  เช่น
            2.1  ใช้ vscode  :  install extension " SQLServer " >> add sample data ที่โหลดมา
