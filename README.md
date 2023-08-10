@@ -22,14 +22,26 @@
    - &nbsp; Update &nbsp;:&nbsp;```UPDATE [table_name] SET [column1 = value1] WHERE [condition];```
 
    - &nbsp; Delete &nbsp;:&nbsp; ```DELETE FROM [table_name] WHERE [condition];```
+ 
+   -----------------------------------------------------------------------------------------------------------------
 
-<br/><br/><br/>
-
-## Exercise_1 
-1.  &nbsp;&nbsp; ดึงทุก column จากตาราง staff มาดู &nbsp;&nbsp; [[เฉลย]](https://github.com/Arisa-Kaewsuan/SQL_Exercises/blob/main/exercise_1/exercise_1_01.sql)
-2.  &nbsp;&nbsp; -
-3.  &nbsp;&nbsp; -
-4.  &nbsp;&nbsp;
+   - &nbsp; Distinct &nbsp;:&nbsp; ```SELECT DISTINCT [column_name] FROM [table_name];```
+     
+   <br/>
+ 
+   - &nbsp; Where &nbsp;:&nbsp; ```SELECT [column_name] FROM [table_name] WHERE [condition];```
+ 
+   - &nbsp; Where - AND &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] WHERE [condition1] AND [condition2]```
+ 
+   - &nbsp; Where - OR &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] WHERE [condition1] OR [condition2]```
+ 
+   - &nbsp; Where - NOT &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] WHERE NOT [condition]```
+ 
+   <br/>
+ 
+   - &nbsp; ORDER BY - ASC &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] ORDER BY [column] ASC;```
+ 
+   - &nbsp; ORDER BY - DESC &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] ORDER BY [column] DESC;```
 
 <br/><br/><br/>
 
