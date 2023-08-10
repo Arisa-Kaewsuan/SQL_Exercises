@@ -1,12 +1,5 @@
 # SQL &nbsp;Exercises
 
-### Exercises
-       [ exercise_1 ]
-       
-          1.  
-
-<br/><br/>
-
 -  &nbsp; **วิธีเขียนโปรแกรมภาษา &nbsp;SQL**
 
        1.  SQL เป็นภาษาที่ไว้สำหรับจัดการ ฐานข้อมูล (Database) ดังนั้นต้องมีฐานข้อมูลให้จัดการก่อน
@@ -29,6 +22,14 @@
    - &nbsp; Update &nbsp;:&nbsp;```UPDATE [table_name] SET [column1 = value1] WHERE [condition];```
 
    - &nbsp; Delete &nbsp;:&nbsp; ```DELETE FROM [table_name] WHERE [condition];```
+
+<br/><br/><br/>
+
+## Exercise_1 
+1.  &nbsp;&nbsp; ดึงทุก column จากตาราง staff มาดู &nbsp;&nbsp; [[เฉลย]]()
+2.  &nbsp;&nbsp; -
+3.  &nbsp;&nbsp; -
+4.  &nbsp;&nbsp;
 
 <br/><br/><br/>
 
