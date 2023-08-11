@@ -1,6 +1,6 @@
 # SQL &nbsp;-&nbsp; Structured&nbsp; Query&nbsp; Language&nbsp; 🚀
 
-### [1.&nbsp;) &nbsp;&nbsp; Introduction 🔗]()
+### [1.&nbsp;) &nbsp;&nbsp; Introduction 🔗](https://github.com/Arisa-Kaewsuan/SQL_Exercises/blob/main/Introduction.md)
 
    -  &nbsp; SQL คืออะไร ?
    -  &nbsp; SQL ใช้ยังไง ?
