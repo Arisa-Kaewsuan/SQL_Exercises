@@ -7,6 +7,24 @@
 ## 1.&nbsp;) &nbsp;&nbsp; Data &nbsp;Definition &nbsp;:&nbsp;DDL
 :&nbsp;&nbsp; DDL เป็นกลุ่มคำสั่งที่ใช้ในการสร้างฐานข้อมูล การกำหนดโครงสร้างข้อมูลว่ามีColumnหรือAttributeใด  ชนิดข้อมูลเป็นประเภทใด รวมทั้งการจัดการด้านการเพิ่ม แก้ไข ลบ Attributeต่างๆใน Relation และการสร้างดัชนี (Index)
 
+<br/>
+
+   - &nbsp; Create DB &nbsp;:&nbsp; ```CREATE DATABASE [databasename];```
+   
+   - &nbsp; Drop DB &nbsp;:&nbsp; ```DROP DATABASE [databasename];```
+
+   <br/><br/>
+
+   - &nbsp; Create Table &nbsp;:&nbsp; ```CREATE TABLE [table_name] ( column1 datatype, column2 datatype);```
+   - &nbsp; Drop Table &nbsp;:&nbsp; ```DROP TABLE [table_name];```
+
+<br/><br/><br/>
+
+ ## 2.&nbsp;) &nbsp;&nbsp; Data &nbsp;Manipulation &nbsp;Language &nbsp;:&nbsp; DML
+:&nbsp;&nbsp;  เป็นกลุ่มคำสั่งที่ถือเป็นแกนสำคัญของภาษา SQL  โดยกลุ่มคำสั่งเหล่านี้จะใช้ในการ  Update   เพิ่ม   ปรับปรุงและการ    Query   ข้อมูลในฐานข้อมูล ซึ่งอาจเป็นชุดคำสั่งในลักษณะ Interactive SQL  หรือ  Embedded SQL ก็ได้
+
+<br/>
+
    - &nbsp; Insert &nbsp;:&nbsp; ```INSERT INTO [table_name] (column1, column2, ...) VALUES (value1, value2, ...);```
    
    - &nbsp; Select &nbsp;:&nbsp; ```SELECT [comlumn_name] FROM [table_name];```
@@ -15,12 +33,7 @@
 
    - &nbsp; Delete &nbsp;:&nbsp; ```DELETE FROM [table_name] WHERE [condition];```
 
-<br/><br/><br/>
-
- ## 2.&nbsp;) &nbsp;&nbsp; Data &nbsp;Manipulation &nbsp;Language &nbsp;:&nbsp; DML
-:&nbsp;&nbsp;  เป็นกลุ่มคำสั่งที่ถือเป็นแกนสำคัญของภาษา SQL  โดยกลุ่มคำสั่งเหล่านี้จะใช้ในการ  Update   เพิ่ม   ปรับปรุงและการ    Query   ข้อมูลในฐานข้อมูล ซึ่งอาจเป็นชุดคำสั่งในลักษณะ Interactive SQL  หรือ  Embedded SQL ก็ได้
-
-<br/>
+   <br/><br/>
 
    - &nbsp; Distinct &nbsp;:&nbsp; ```SELECT DISTINCT [column_name] FROM [table_name];```
      
