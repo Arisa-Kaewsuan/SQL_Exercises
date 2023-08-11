@@ -25,9 +25,11 @@
 
 <br/>
 
-   - &nbsp; Insert &nbsp;:&nbsp; ```INSERT INTO [table_name] (column1, column2, ...) VALUES (value1, value2, ...);```
-   
-   - &nbsp; Select &nbsp;:&nbsp; ```SELECT [comlumn_name] FROM [table_name];```
+   - &nbsp; อยากเพิ่มข้อมูลลง ตาราง (table) ใช้คำสั่ง Insert into
+     > &nbsp; Insert &nbsp;:&nbsp; ```INSERT INTO [table_name] (column1, column2, ...) VALUES (value1, value2, ...);```
+
+   - &nbsp; อยากดึงข้อมูลจาก ตาราง (table) ใช้คำสั่ง Select from 
+     > &nbsp; Select &nbsp;:&nbsp; ```SELECT [comlumn_name] FROM [table_name];```
 
    - &nbsp; Update &nbsp;:&nbsp;```UPDATE [table_name] SET [column1 = value1] WHERE [condition];```
 
