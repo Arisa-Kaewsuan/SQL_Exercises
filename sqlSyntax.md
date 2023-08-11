@@ -33,7 +33,12 @@
 
    - &nbsp; Delete &nbsp;:&nbsp; ```DELETE FROM [table_name] WHERE [condition];```
 
-   <br/><br/>
+<br/><br/><br/>
+
+ ## 3.&nbsp;) &nbsp;&nbsp; Data &nbsp;Control &nbsp;Language &nbsp;:&nbsp; DCL
+:&nbsp;&nbsp;  DCL  ซึ่งเป็นกลุ่มคำสั่งที่จะช่วยให้ผู้บริหารฐานข้อมูล  (DBA) สามารถควบคุมฐานข้อมูลเพื่อกำหนดสิทธิการอนุญาต  (Grant)  หรือการยกเลิกการเข้าใช้ (Revoke)  ฐานข้อมูล ซึ่งเป็นกระบวนการป้องกันความปลอดภัยในฐานข้อมูล  รวมทั้งการจัดการทรานแซกชั่น (Transaction Management) หลักสูตรที่เกี่ยวข้อง
+
+<br/>
 
    - &nbsp; Distinct &nbsp;:&nbsp; ```SELECT DISTINCT [column_name] FROM [table_name];```
      
@@ -68,8 +73,3 @@
    - &nbsp; AVG &nbsp;:&nbsp; ```SELECT AVG(column_name) FROM [table_name] WHERE [condition];```
  
    - &nbsp; SUM &nbsp;:&nbsp; ```SELECT SUM(column_name) FROM [table_name] WHERE [condition];```
-
-<br/><br/><br/>
-
- ## 3.&nbsp;) &nbsp;&nbsp; Data &nbsp;Control &nbsp;Language &nbsp;:&nbsp; DCL
-:&nbsp;&nbsp;  DCL  ซึ่งเป็นกลุ่มคำสั่งที่จะช่วยให้ผู้บริหารฐานข้อมูล  (DBA) สามารถควบคุมฐานข้อมูลเพื่อกำหนดสิทธิการอนุญาต  (Grant)  หรือการยกเลิกการเข้าใช้ (Revoke)  ฐานข้อมูล ซึ่งเป็นกระบวนการป้องกันความปลอดภัยในฐานข้อมูล  รวมทั้งการจัดการทรานแซกชั่น (Transaction Management) หลักสูตรที่เกี่ยวข้อง
