@@ -54,6 +54,7 @@
      > &nbsp; Where - AND &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] WHERE [condition1] AND [condition2]``` <br/>
      > &nbsp; Where - OR &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] WHERE [condition1] OR [condition2]``` <br/>
      > &nbsp; Where - NOT &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] WHERE NOT [condition]``` <br/>
+     > &nbsp; Where - BETWEEN &nbsp;:&nbsp; ```SELECT [column_name] FROM [table_name] WHERE [column_name] BETWEEN [value1] AND [value2];``` คือ การเลือกข้อมูลใน column... ที่มีค่าระหว่าง value1 - value2 มาแสดง<br/>
      > &nbsp; Where - LIKE &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] WHERE [column] LIKE [pattern];``` <br/><br/>
        > Pattern / Wildcards
        > - &nbsp;'&nbsp;a&nbsp;%&nbsp;'&nbsp;  &nbsp;:&nbsp;  คือ ค่าที่มี format ขึ้นต้นด้วยอักษร a
@@ -68,6 +69,38 @@
 
    - &nbsp; อยากเลือกข้อมูลใน column... จากตาราง... มาแสดงโดย " เรียงค่าตาม column... เรียงจากมากไปน้อย " ใช้คำสั่ง Order by ร่วมกับ DESC
      > &nbsp; ORDER BY - DESC &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] ORDER BY [column] DESC;```
+
+   <br/><br/>
+
+   - &nbsp; อยากเลือกข้อมูลจากตารางมากกว่า 1 ตารางที่มีความสัมพันธ์กันตาม Euiler Diagram แบบ  " A ∩ B คือ ส่วนที่ซ้ำกัน " ใช้คำสั่ง [Inner join](https://www.w3schools.com/sql/sql_join_inner.asp)  เพราะ SQL ถูกสร้างมาใช้กับฐานข้อมูลแบบ Relational Database ที่ตารางจะไม่เก็บ column ซ้ำแต่ใช้การแยกตารางเป็นตารางย่อยๆ แล้วถ้าตารางไหนไหนอยากใช้ข้อมูลจากตารางอื่น ก็ใช้ column ที่เป็น Forirgn key ในการอ้างอิง
+     > &nbsp; ตัวอย่างการ INNER JOIN แบบ 2 column &nbsp;:&nbsp;
+     > ```
+     >    SELECT Orders.OrderID, Customers.CustomerName
+     >    FROM Orders
+     >    INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
+     
+     > &nbsp; ตัวอย่างการ INNER JOIN แบบ 3 column &nbsp;:&nbsp;
+     > ```
+     >    SELECT Orders.OrderID, Customers.CustomerName, Shippers.ShipperName
+     >    FROM ((Orders
+     >    INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID)
+     >    INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID);
+
+   - &nbsp; อยากเลือกข้อมูลจากตารางมากกว่า 1 ตารางที่มีความสัมพันธ์กันตาม Euiler Diagram แบบ  " A - B คือ มีใน A ไม่มีใน B " ใช้คำสั่ง [Left join](https://www.w3schools.com/sql/sql_join_left.asp)
+     > &nbsp; ตัวอย่างการ INNER JOIN แบบ 2 column &nbsp;:&nbsp;
+     > ```
+     >    SELECT Customers.CustomerName, Orders.OrderID
+     >    FROM Customers
+     >    LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID
+     >    ORDER BY Customers.CustomerName;
+
+   - &nbsp; อยากเลือกข้อมูลจากตารางมากกว่า 1 ตารางที่มีความสัมพันธ์กันตาม Euiler Diagram แบบ  " B - A คือ มีใน B ไม่มีใน A " ใช้คำสั่ง [Right join](https://www.w3schools.com/sql/sql_join_right.asp)
+     > &nbsp; ตัวอย่างการ INNER JOIN แบบ 2 column &nbsp;:&nbsp;
+     > ```
+     >    SELECT Orders.OrderID, Employees.LastName, Employees.FirstName
+     >    FROM Orders
+     >    RIGHT JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID
+     >    ORDER BY Orders.OrderID;
  
    <br/><br/>
 
