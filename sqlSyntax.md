@@ -25,15 +25,17 @@
 
 <br/>
 
-   - &nbsp; อยากเพิ่มข้อมูลลง ตาราง (table) ใช้คำสั่ง Insert into
+   - &nbsp; อยากเพิ่มข้อมูลลง ตาราง... column... ใช้คำสั่ง Insert into
      > &nbsp; Insert &nbsp;:&nbsp; ```INSERT INTO [table_name] (column1, column2, ...) VALUES (value1, value2, ...);```
 
-   - &nbsp; อยากดึงข้อมูลจาก ตาราง (table) ใช้คำสั่ง Select from 
+   - &nbsp; อยากดึงข้อมูลจาก column... จาก ตาราง... ใช้คำสั่ง Select from 
      > &nbsp; Select &nbsp;:&nbsp; ```SELECT [comlumn_name] FROM [table_name];```
 
-   - &nbsp; Update &nbsp;:&nbsp;```UPDATE [table_name] SET [column1 = value1] WHERE [condition];```
+   - &nbsp; อยากแก้ไขข้อมูลใน ตาราง... column... ใช้คำสั่ง Update set  
+     > &nbsp; Update &nbsp;:&nbsp;```UPDATE [table_name] SET [column1 = value1] WHERE [condition];```
 
-   - &nbsp; Delete &nbsp;:&nbsp; ```DELETE FROM [table_name] WHERE [condition];```
+   - &nbsp; อยากลบข้อมูลจาก ตาราง...  ใช้คำสั่ง Delete from
+     > &nbsp; Delete &nbsp;:&nbsp; ```DELETE FROM [table_name] WHERE [condition];```
 
 <br/><br/><br/>
 
@@ -42,20 +44,17 @@
 
 <br/>
 
-   - &nbsp; Distinct &nbsp;:&nbsp; ```SELECT DISTINCT [column_name] FROM [table_name];```
+   - &nbsp; อยากเลือกข้อมูลใน column... จากตาราง... มาแสดงโดย " ไม่แสดงค่าซ้ำ " ใช้คำสั่ง Distinct นำหน้าชื่อตาราง
+     > &nbsp; Distinct &nbsp;:&nbsp; ```SELECT DISTINCT [column_name] FROM [table_name];```
      
    <br/><br/>
- 
-   - &nbsp; Where &nbsp;:&nbsp; ```SELECT [column_name] FROM [table_name] WHERE [condition];```
- 
-   - &nbsp; Where - AND &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] WHERE [condition1] AND [condition2]```
- 
-   - &nbsp; Where - OR &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] WHERE [condition1] OR [condition2]```
- 
-   - &nbsp; Where - NOT &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] WHERE NOT [condition]```
- 
-   - &nbsp; Where - LIKE &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] WHERE [column] LIKE [pattern];```
 
+   - &nbsp; อยากเลือกข้อมูลใน column... จากตาราง... มาแสดงโดย " มีเงื่อนไข " ใช้คำสั่ง Where กำหนดเงื่อนไขเหมือนเวลากำหนดเงื่อนไขใน if-else ของภาษาอื่น
+     > &nbsp; Where &nbsp;:&nbsp; ```SELECT [column_name] FROM [table_name] WHERE [condition];``` <br/>
+     > &nbsp; Where - AND &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] WHERE [condition1] AND [condition2]``` <br/>
+     > &nbsp; Where - OR &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] WHERE [condition1] OR [condition2]``` <br/>
+     > &nbsp; Where - NOT &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] WHERE NOT [condition]``` <br/>
+     > &nbsp; Where - LIKE &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] WHERE [column] LIKE [pattern];``` <br/><br/>
        > Pattern / Wildcards
        > - &nbsp;'&nbsp;a&nbsp;%&nbsp;'&nbsp;  &nbsp;:&nbsp;  คือ ค่าที่มี format ขึ้นต้นด้วยอักษร a
        > - &nbsp;'&nbsp;%&nbsp;a&nbsp;'&nbsp;  &nbsp;:&nbsp;  คือ ค่าที่มี format ลงท้ายด้วยอักษร a
@@ -63,15 +62,20 @@
        > - &nbsp;'&nbsp;%&nbsp;or&nbsp;%&nbsp;'&nbsp;  &nbsp;:&nbsp;  คือ ค่าที่มี format อักษร or อยู่
  
    <br/><br/>
- 
-   - &nbsp; ORDER BY - ASC &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] ORDER BY [column] ASC;```
- 
-   - &nbsp; ORDER BY - DESC &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] ORDER BY [column] DESC;```
+
+   - &nbsp; อยากเลือกข้อมูลใน column... จากตาราง... มาแสดงโดย " เรียงค่าตาม column... เรียงจากน้อยไปมาก " ใช้คำสั่ง Order by ร่วมกับ ASC
+     > &nbsp; ORDER BY - ASC &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] ORDER BY [column] ASC;```
+
+   - &nbsp; อยากเลือกข้อมูลใน column... จากตาราง... มาแสดงโดย " เรียงค่าตาม column... เรียงจากมากไปน้อย " ใช้คำสั่ง Order by ร่วมกับ DESC
+     > &nbsp; ORDER BY - DESC &nbsp;:&nbsp; ```SELECT [column] FROM [table_name] ORDER BY [column] DESC;```
  
    <br/><br/>
- 
-   - &nbsp; COUNT &nbsp;:&nbsp; ```SELECT COUNT(column_name) FROM [table_name] WHERE [condition];```
- 
-   - &nbsp; AVG &nbsp;:&nbsp; ```SELECT AVG(column_name) FROM [table_name] WHERE [condition];```
- 
-   - &nbsp; SUM &nbsp;:&nbsp; ```SELECT SUM(column_name) FROM [table_name] WHERE [condition];```
+
+   - &nbsp; อยากนับว่าใน column... จากตาราง... " มีกี่ค่า/กี่จำนวน/กี่ row " ใช้คำสั่ง Count ระบุหน้าชื่อ column
+     > &nbsp; COUNT &nbsp;:&nbsp; ```SELECT COUNT(column_name) FROM [table_name] WHERE [condition];```
+
+   - &nbsp; อยากหาค่าเฉลี่ยของ column... จากตาราง...  ใช้คำสั่ง AVG ระบุหน้าชื่อ column
+     > &nbsp; AVG &nbsp;:&nbsp; ```SELECT AVG(column_name) FROM [table_name] WHERE [condition];```
+
+   - &nbsp; อยากหาผลรวมของ column... จากตาราง...  ใช้คำสั่ง SUM ระบุหน้าชื่อ column
+     > &nbsp; SUM &nbsp;:&nbsp; ```SELECT SUM(column_name) FROM [table_name] WHERE [condition];```
