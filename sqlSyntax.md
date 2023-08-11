@@ -4,7 +4,7 @@
 
 <br/><br/>
 
-## [1.&nbsp;) &nbsp;&nbsp; Data &nbsp;Definition &nbsp;:&nbsp;DDL 🔗](https://www.w3schools.com/sql/default.asp)
+## [1.&nbsp;) &nbsp;&nbsp; Data &nbsp;Definition &nbsp;:&nbsp;DDL 🔗](https://www.khanacademy.org/computing/computer-programming/sql)
 :&nbsp;&nbsp; เป็นคำสั่งใช้จัดการ สร้าง ลบ Database(ฐานข้อมูล) และ Table(ตาราง) ใช้ในขั้นตอนการสร้างฐานข้อมูล และเพิ่มข้อมูลลงตาราง
 
 <br/>
@@ -20,7 +20,7 @@
 
 <br/><br/><br/>
 
- ## [2.&nbsp;) &nbsp;&nbsp; Data &nbsp;Manipulation &nbsp;Language &nbsp;:&nbsp; DML 🔗](https://developer.mozilla.org/en-US/)
+ ## [2.&nbsp;) &nbsp;&nbsp; Data &nbsp;Manipulation &nbsp;Language &nbsp;:&nbsp; DML 🔗](https://www.w3schools.com/sql/default.asp)
 :&nbsp;&nbsp;  คือคำสั่งที่ใช้ในการ Query  เพิ่ม ลบ แก้ไข ดึง ข้อมูล
 
 <br/>
