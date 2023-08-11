@@ -38,10 +38,7 @@
 
 ### [3.&nbsp;) &nbsp;&nbsp; Database&nbsp; Design 🔗](https://github.com/Arisa-Kaewsuan/SQL_Exercises/blob/main/dbDesign.md)
 
-   -  &nbsp; ER Diagram คืออะไร ?
-   -  &nbsp; Exercise 1 : จงออกแบบฐานข้อมูลของ ระบบ E-commerce ของบริษัทแห่งหนึ่ง โดยเขียนออกมาเป็น ER Diagram
-
-            L รายละเอียด
+         L
 
 <br/>
 
