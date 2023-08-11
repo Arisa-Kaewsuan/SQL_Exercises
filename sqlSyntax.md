@@ -39,7 +39,7 @@
 
 <br/><br/><br/>
 
- ## [3.&nbsp;) &nbsp;&nbsp; Data &nbsp;Control &nbsp;Language &nbsp;:&nbsp; DCL 🔗](https://mariadb.org/)
+ ## [3.&nbsp;) &nbsp;&nbsp; Data &nbsp;Control &nbsp;Language &nbsp;:&nbsp; DCL 🔗](https://aws.amazon.com/th/what-is/sql/)
 :&nbsp;&nbsp; เป็นคำสั่งควบคุมที่ช่วยให้เรา filter ข้อมูลได้ ว่าอยากเพิ่ม ลบ แก้ไข ดึง ข้อมูลแค่ไหน ก็กำหนดเงื่อนไข กำหนดขอบเขตให้มันด้วยคำสั่งเหล่านี้ได้
 
 <br/>
