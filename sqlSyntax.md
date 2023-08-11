@@ -112,3 +112,6 @@
 
    - &nbsp; อยากหาผลรวมของ column... จากตาราง...  ใช้คำสั่ง SUM ระบุหน้าชื่อ column
      > &nbsp; SUM &nbsp;:&nbsp; ```SELECT SUM(column_name) FROM [table_name] WHERE [condition];```
+     
+   - &nbsp; อยากนับว่าใน column... จากตาราง... ที่อยู่ในกลุ่มเดียวกันตาม column... " มีกี่ค่า/กี่จำนวน/กี่ row "  ใช้คำสั่ง Group by
+     > &nbsp; GROUP BY &nbsp;:&nbsp; ```SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country;```
