@@ -31,14 +31,13 @@
    -  &nbsp; Group by คืออะไร ใช้ยังไง ?
    -  &nbsp; Between คืออะไร ใช้ยังไง ?
 
-- [EXERCISE - 1](https://github.com/Arisa-Kaewsuan/SQL_Exercises/tree/main/exercise_1) &nbsp;&nbsp; แบบฝึกหัด SQL ชุดที่ 1
-- [EXERCISE - 2](https://github.com/Arisa-Kaewsuan/SQL_Exercises/tree/main/exercise_2) &nbsp;&nbsp; แบบฝึกหัด SQL ชุดที่ 2
+-  &nbsp; แบบฝึกหัด SQL &nbsp;:&nbsp; [Beginner](https://www.hackerrank.com/domains/sql) &nbsp;&nbsp; [Beginner](https://sqlzoo.net/wiki/Window_LAG) &nbsp;&nbsp; [Medium](https://www.codingninjas.com/studio/problem-lists/top-100-sql-problems)
 
 <br/>
 
 ### [3.&nbsp;) &nbsp;&nbsp; Database&nbsp; Design 🔗](https://github.com/Arisa-Kaewsuan/SQL_Exercises/blob/main/dbDesign.md)
 
-         L
+         comming soon . . .
 
 <br/>
 
