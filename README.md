@@ -10,7 +10,7 @@
 
 <br/>
 
-### [2.&nbsp;) &nbsp;&nbsp; SQL&nbsp; Syntax 🔗]()
+### [2.&nbsp;) &nbsp;&nbsp; SQL&nbsp; Syntax 🔗](https://github.com/Arisa-Kaewsuan/SQL_Exercises/blob/main/sqlSyntax.md)
 
    -  &nbsp; อยากเพิ่มข้อมูลลงฐานข้อมูลทำยังไง ?
    -  &nbsp; อยากลบข้อมูลในฐานข้อมูลทำยังไง ?
