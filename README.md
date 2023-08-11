@@ -35,7 +35,7 @@
 
 <br/>
 
-### [3.&nbsp;) &nbsp;&nbsp; Database&nbsp; Design 🔗](https://github.com/Arisa-Kaewsuan/SQL_Exercises/blob/main/dbDesign.md)
+### [3.&nbsp;) &nbsp;&nbsp; Database&nbsp; Design 🔗](https://www.youtube.com/watch?v=QQk33OX5IzU&list=RDCMUCUusPZJbly3C2dS5SEWhngw&start_radio=1&rv=QQk33OX5IzU&t=0)
 
          comming soon . . .
 
