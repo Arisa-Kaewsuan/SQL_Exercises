@@ -11,8 +11,6 @@
 <br/>
 
 ### [2.&nbsp;) &nbsp;&nbsp; SQL&nbsp; Syntax 🔗](https://github.com/Arisa-Kaewsuan/SQL_Exercises/blob/main/sqlSyntax.md)
-- [EXERCISE - 1](https://github.com/Arisa-Kaewsuan/SQL_Exercises/tree/main/exercise_1) &nbsp;&nbsp; แบบฝึกหัด SQL ชุดที่ 1
-- [EXERCISE - 2](https://github.com/Arisa-Kaewsuan/SQL_Exercises/tree/main/exercise_2) &nbsp;&nbsp; แบบฝึกหัด SQL ชุดที่ 2
 
    -  &nbsp; อยาก " สร้าง Database " ทำยังไง ?
    -  &nbsp; อยาก " ลบ Database " ทำยังไง ?
@@ -32,6 +30,9 @@
    -  &nbsp; Inner join / Left join / Right join คืออะไร ใช้ยังไง ?
    -  &nbsp; Group by คืออะไร ใช้ยังไง ?
    -  &nbsp; Between คืออะไร ใช้ยังไง ?
+
+- [EXERCISE - 1](https://github.com/Arisa-Kaewsuan/SQL_Exercises/tree/main/exercise_1) &nbsp;&nbsp; แบบฝึกหัด SQL ชุดที่ 1
+- [EXERCISE - 2](https://github.com/Arisa-Kaewsuan/SQL_Exercises/tree/main/exercise_2) &nbsp;&nbsp; แบบฝึกหัด SQL ชุดที่ 2
 
 <br/>
 
