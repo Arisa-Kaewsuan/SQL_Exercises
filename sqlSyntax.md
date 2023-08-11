@@ -5,7 +5,7 @@
 <br/><br/>
 
 ## 1.&nbsp;) &nbsp;&nbsp; Data &nbsp;Definition &nbsp;:&nbsp;DDL
-:&nbsp;&nbsp; เป็นคำสั่งใช้จักการ สร้าง ลบ Database(ฐานข้อมูล) และ Table(ตาราง) เป็นการสร้างฐานข้อมูล
+:&nbsp;&nbsp; เป็นคำสั่งใช้จัดการ สร้าง ลบ Database(ฐานข้อมูล) และ Table(ตาราง) เป็นการสร้างฐานข้อมูล
 
 <br/>
 
