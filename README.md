@@ -27,6 +27,8 @@
    -  &nbsp; อยาก " นับว่าใน column นั้นๆ มีข้อมูลกี่ตัว / กี่row " ทำยังไง ?
    -  &nbsp; อยาก " หาผลรวมของทุกแถวใน column นั้น " ทำยังไง ?
    -  &nbsp; อยาก " หาค่าเฉลี่ยนของ column นั้น " ทำยังไง ?
+   -  &nbsp; Inner join / Left join / Right join คืออะไร ใช้ยังไง ?
+   -  &nbsp; Group by ใช้ยังไง ?
 
 <br/>
 
