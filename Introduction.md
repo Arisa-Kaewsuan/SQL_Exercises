@@ -36,7 +36,8 @@
                -  ตัวอย่างประเภทข้อมูลที่เก็บใน ฐานข้อมูลแบบ  Non-Relational Database
                     1.  key-value : JSON , Dictionary ส่วนมากเป็นข้อมูลที่ได้จาก software พวก web , mobile app
                     2.  Document : file , excel
-                    3.  Graph :
+                    3.  Graph : นิยมใช้ในงาน AI / ML / Social network (เช่น ระบบติดตาม - follow system) ผู้ให้บริการฐานข้อมูลแบบ Graph
+                                ในปัจจุบัน เช่น neo4j
                     4.  wid-column
 
            เราต้องรู้ว่าฐานข้อมูล และ ข้อมูลมีกี่แบบ เพื่อให้เลือกใช้ได้ถูกว่าถ้าเรามีข้อมูลแบบนี้ จะใช้ Database แบบไหนในการเก็บ แล้ว Database แบบนั้นมีใครให้
@@ -51,7 +52,7 @@
 
    -  &nbsp; คำศัพท์ที่ควรรู้เกี่ยวกับ Relational Database (RDB) ?
 
-           1.  Entity = Table = ตาราง
+           1.  Entity = Table(ใน mysql) = Collection(ใน mongoDB) = ตาราง
            2.  Record = Colum = Attribute = element = property = คุณลักษณะ / คอลลัม
            3.  Foriegn Key = 
            4.  Primary Key =
