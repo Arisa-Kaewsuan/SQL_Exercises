@@ -1,5 +1,10 @@
 # MONGODB &nbsp;SYNTAX
 
+-  &nbsp; [คำสั่งต่างๆใน mongoDB ? 🔗](https://www.mongodb.com/docs/mongodb-shell/crud/)
+   - &nbsp; Select ข้อมูล &nbsp;:&nbsp; ```db.movies.find( { rated: { $in: [ "PG", "PG-13" ] } } )``` <br/> =&nbsp;```SELECT * FROM movies WHERE rated in ("PG", "PG-13")```
+
+<br/>
+
 -  &nbsp; [mongoDB คืออะไร ? 🔗](https://www.youtube.com/watch?v=VgyEablNJkk) 
 
             mongoDB เป็นฐานข้อมูลแบบ NoSQL ต่างจาก SQL มันเก็บข้อมูลเป็น JSON มีให้ใช้ 2 แบบ
