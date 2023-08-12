@@ -192,6 +192,10 @@
       ตัวอย่างการ insert ข้อมูลแบบ insertMany <br/>
 
       ![ตัวอย่างการinsertหลายrow](https://github.com/Arisa-Kaewsuan/SQL_Exercises/assets/87797742/78d01ffe-c3e3-4594-832e-531f9eec2e49)<br/>
+
+      จากรูปข้างล่างจะเห็นว่าเราสามารถดูข้อมูลที่เรา insert เข้าไปแบบตารางได้ และยังสามารถใช้ GUI ในการ insert ได้อีกด้วย <br/>
+
+      ![mongdb_GUI](https://github.com/Arisa-Kaewsuan/SQL_Exercises/assets/87797742/6dd99416-6459-4170-8099-74365662c2ef)<br/>
       
       >- &nbsp; ลองลบฐานข้อมูลที่ชื่อ mydb &nbsp;:&nbsp; ใช้คำสั่ง ```db.dropDatabase("mydb")``` <br/>
       >
