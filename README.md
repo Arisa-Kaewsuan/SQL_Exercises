@@ -40,7 +40,7 @@
 
 <br/>
 
-### [3.&nbsp;) &nbsp;&nbsp; mongoDB&nbsp; Syntax 🔗]()
+### [3.&nbsp;) &nbsp;&nbsp; mongoDB&nbsp; Syntax 🔗](https://github.com/Arisa-Kaewsuan/SQL_Exercises/blob/main/mongodbSyntax.md)
    -  &nbsp; คำสั่งต่างๆใน mongoDB
       -  &nbsp; Select ข้อมูลใช้คำสั่งอะไร ?
 
