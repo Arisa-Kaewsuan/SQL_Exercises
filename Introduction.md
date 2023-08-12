@@ -124,6 +124,11 @@
             ตัวอย่างฐานขอมูลที่เป็นแบบ SQL เช่น MySQL , MariaDB , Oracle
    <br/>
 
+   -  &nbsp; Data Warehouse / Data Lake / Data Storage คืออะไร ?
+
+           L ...
+   <br/>
+
    -  &nbsp; [mongoDB](https://www.youtube.com/watch?v=VgyEablNJkk) คืออะไร ใช้งานยังไง ?
 
             mongoDB เป็นฐานข้อมูลแบบ NoSQL ต่างจาก SQL มันเก็บข้อมูลเป็น JSON มีให้ใช้ 2 แบบ
