@@ -96,11 +96,14 @@
       >
       >- &nbsp; ลองเปลี่ยนชื่อ collection จาก user เป็น employee &nbsp;:&nbsp; ใช้คำสั่ง ```db.user.renameCollection("employee")``` <br/>
 
-            ตอนนี้เรามี Database แล้วก็สามารถ Query(CRUD) ข้อมูลดูได้ ด้วยคำสั่งต่อไปนี้
+            ตอนนี้เรามี Database แล้วก็สามารถ Query(CRUD) ข้อมูลดูได้ ด้วยคำสั่งต่อไปนี้ 
      
             1.  Select ข้อมูลมาดู : ใช้คำสั่ง find()
 
       ตัวอย่างการ การใช้กลุ่มคำสั่ง mongoDB สำหรับ [Query](https://www.mongodb.com/docs/mongodb-shell/crud/read/) ข้อมูล <br/>
       >- &nbsp;  อยากทราบว่ามีพนักงานกี่คนที่ได้เงินเดือน 15000 บาท &nbsp;:&nbsp;
       >  วิเคราะห์โจทย์แล้วได้ว่าให้ดูใน collection employees ที่ฟิลด์ salary = 15000 ใช้คำสั่ง ```db.employees.find({salary:15000})``` <br/>
+
+            ถ้าอยากเชื่อมต่อ application ของเรากับฐานข้อมูล mongoDB ให้ search หา mongoDB ชื่อภาษาที่ใช้ทำแอป นั้น เช่น mongoDB Java ,
+            mongoDB python มันจะขึ้นวิธีใช้ และ driver ที่เราต้องใช้
    <br/>
