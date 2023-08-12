@@ -185,6 +185,8 @@
       >
       >- &nbsp; ลองเพิ่มข้อมูลใน collection user &nbsp;:&nbsp; มี 2 แบบ หนึ่งคือคำสั่งแบบเพิ่ม document เดียว ```db.user.insertOne[<document/JSON>]``` และ สองคือคำสั่งแบบเพิ่มหลายๆ document ```db.user.insertMany[<document/JSON>]``` <br/>
       >
+      ![ตัวอย่างการinsertข้อมูลลงmongodb](https://github.com/Arisa-Kaewsuan/SQL_Exercises/assets/87797742/0c1eae66-194b-4074-a57f-ca61018b91d2)<br/>
+      
       >- &nbsp; ลองลบฐานข้อมูลที่ชื่อ mydb &nbsp;:&nbsp; ใช้คำสั่ง ```db.dropDatabase("mydb")``` <br/>
       >
       >- &nbsp; ลองลบ collection ที่ชื่อ user &nbsp;:&nbsp; ใช้คำสั่ง ```db.user.drop()``` <br/>
