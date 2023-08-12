@@ -174,8 +174,12 @@
                 เหมือนตอน mysql ) หรือสร้างเองก็ได้ เริ่มต้นเราจะมาลองทำแบบสร้างเองก่อนเพื่อให้คุ้นเคยกับคำสั่ง
 
                      3.1  เปิด mongoDB compass แล้วกด create database 
-                     3.2  เปิด mongosh จะอยู่ tab ด้านล่างโปรแกรม
-      > อยากดูว่าเรามี Database อะไรอยู่บ้าง : ใช้คำสั่ง ```show dbs```
+                     3.2  เปิด mongosh จะอยู่ tab ด้านล่างโปรแกรม แล้วลองใช้คำสั่งด้านล่างนี้ดู
+      >- &nbsp; อยากดูว่าเรามี Database อะไรอยู่บ้าง &nbsp;:&nbsp; ใช้คำสั่ง ```show dbs``` <br/>
+      >
+      >- &nbsp; ลองสร้างฐานข้อมูล (database) ชื่อ mydb &nbsp;:&nbsp; ใช้คำสั่ง ```use mydb``` <br/>
+      >
+      >- &nbsp; ลองสร้าง collection ชื่อ user เก็บไว้ในฐานข้อมูลที่ชื่อ customers &nbsp;:&nbsp; ต้องเข้าไปที่ฐานข้อมูล customers ก่อน ```use customers``` &nbsp;&nbsp; แล้วใช้คำสั่ง ```db.createCollection("user")``` ในการสร้าง collection ชื่อ user <br/>
    <br/>
 
    -  &nbsp; ช่วยอธิบายโครงสร้างการเก็บข้อมูลของ mongoDB หน่อย ?
