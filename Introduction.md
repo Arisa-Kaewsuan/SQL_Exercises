@@ -144,9 +144,16 @@
 
    -  &nbsp; ช่วยอธิบายโครงสร้างการเก็บข้อมูลของ mongoDB หน่อย ?
 
-           >>  Database
-           >>  Collection
-           >>  Documents  :  ก็คือ ข้อมูล (data) ที่มีรูปแบบโครงสร้างข้อมูลเป็นแบบ JSON Object ที่มีลักษณะเป็น key-value
+            
+           >>  Database  
+           >>  Collection : เปรียบได้กับ Table ใน mysql 
+           >>  Documents  :  ก็คือ ข้อมูล (data) ข้อมูลที่เก็บใน mongoDB จะเป็นแบบ JSON Object โดย mongoDB จะแปลง JSON เป็น
+                             BSON(เป็น binary file) ทำให้ฐานข้องมูล mongoDB ทำงานได้เร็ว
+
+           JSON คือ syntax ภาษา javascript ที่กำหนเรูปแบบ (format) การเก็บข้อมูล ให้อยู่ใน format แบบ key-value แล้วมองข้อมูล
+           JSON เป็นก้อนๆ (Object) ใช้กันมากในสายทำ web เพราะ ในการทำ API ที่ต้องมีการส่งข้อมูลระหว่าง server-client ข้อมูลที่ส่ง
+           จะอยู่ในรูป JSON เป็นมาตรฐาน  เมื่อก่อนจะเป็น XML ที่ syntax คล้ายๆ html แล้วมันอ่านยาก ก็เลยพัฒนามาเป็น JSON ที่มี syntax
+           เป็น key-value แทน ทำให้อ่านง่ายกว่า
   <br/>
 
 
