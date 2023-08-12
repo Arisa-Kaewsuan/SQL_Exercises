@@ -13,6 +13,7 @@
    -  &nbsp; Relational Database คืออะไร ?
    -  &nbsp; Data Warehouse / Data Lake / Data Storage คืออะไร ?
    -  &nbsp; mongoDB คืออะไร ใช้ยังไง ?
+   -  &nbsp; ช่วยอธิบายโครงสร้างการเก็บข้อมูลของ mongoDB หน่อย ?
 
 <br/>
 
