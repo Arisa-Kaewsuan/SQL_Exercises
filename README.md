@@ -11,6 +11,7 @@
    -  &nbsp; DBMS คืออะไร ?
    -  &nbsp; NoSQL คืออะไร ?
    -  &nbsp; Relational Database คืออะไร ?
+   -  &nbsp; Data Warehouse / Data Lake / Data Storage คืออะไร ?
    -  &nbsp; mongoDB คืออะไร ใช้ยังไง ?
 
 <br/>
