@@ -63,8 +63,9 @@
          > วิธีใช้แบบแรก เรียกว่า SQL Query คือการ query ข้อมูลโดยการใช้ sql ในโปรแกรม DBMS/vscode/... ทำได้โดย &nbsp;: <br/><br/>
          > 1.1&nbsp;)&nbsp;&nbsp;   ต้องมีฐานข้อมูลให้จัดการก่อน จะสร้างเองก็ได้โดยใช้ &nbsp;DBMS &nbsp;อย่าง &nbsp;phpMyAdmin&nbsp;
          >        แต่ในตัวอย่างนี้เราจะใช้ &nbsp;Free &nbsp;sample &nbsp;data&nbsp; ของ &nbsp;MySQL&nbsp; ที่ชื่อ &nbsp;[sakila](https://dev.mysql.com/doc/index-other.html) <br/><br/>
-         > 1.2&nbsp;)&nbsp;&nbsp;   ต้องมี Editor ในการเขียน SQL แล้วดูผลลัพธ์ ทำได้หลายวิธีเลือกตามสะดวก  เช่น
+         > 1.2&nbsp;)&nbsp;&nbsp;   ต้องมี Editor/DBMS ในการเขียน SQL แล้วดูผลลัพธ์ ทำได้หลายวิธีเลือกตามสะดวก  เช่น
          > - ใช้ vscode  :  install extension " SQLServer " >> add sample data ที่โหลดมา
+         > - ใช้ phpMyAdmin : ใช้ผ่านเว็บ phpMyAdmin ได้เลย
          > - ใช้โปรแกรม DB Browser (SQLite)  :  โหลดโปรแกรมมา add sample data ก็ใช้ได้เลย
          > - ใช้ sql editor online อย่าง programiz.com  หรือ  sqliteonline.com  :  เข้าเว็บแล้ว import data มาก็ใช้ได้เลย
       
