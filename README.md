@@ -2,6 +2,7 @@
 
 ### [1.&nbsp;) &nbsp;&nbsp; Introduction 🔗](https://github.com/Arisa-Kaewsuan/SQL_Exercises/blob/main/Introduction.md)
 
+   -  &nbsp; Database คืออะไร ใช้ทำอะไร เกิดขึ้นมาได้ยังไง มีกี่แบบ ?
    -  &nbsp; SQL คืออะไร ?
    -  &nbsp; SQL ใช้ยังไง ?
    -  &nbsp; DBMS คืออะไร ?
