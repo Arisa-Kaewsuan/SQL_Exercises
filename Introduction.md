@@ -183,7 +183,7 @@
       >
       >- &nbsp; clear terminal &nbsp;:&nbsp; ใช้คำสั่ง ```cls``` หรือกด ```ctrl + l``` เหมือนตอนใช้ cmd เลย เราจึงควรรู้ bash script หรือก็คือคำสั่งที่ใช้กับ cmd เอาไว้บ้าง มีประโยชน์ในการทำงาน <br/>
       >
-      >- &nbsp; ลองเพิ่มข้อมูลใน collection user &nbsp;:&nbsp; มี 2 แบบ หนึ่งคือคำสั่งแบบเพิ่ม document เดียว ```db.user.insertOne({document/JSON})``` และ สองคือคำสั่งแบบเพิ่มหลายๆ document ```db.user.insertMany([{document_1} , {document_2}])``` 1 document = ข้อมูลของ 1 user <br/>
+      >- &nbsp; ลองเพิ่มข้อมูลใน collection user &nbsp;:&nbsp; มี 2 แบบ หนึ่งคือคำสั่งแบบเพิ่ม document เดียว ```db.user.insertOne({document/JSON})``` และ สองคือคำสั่งแบบเพิ่มหลายๆ document ```db.user.insertMany([{document_1} , {document_2}])``` 1 document/JSON = 1 row = ข้อมูลของ 1 user <br/>
       >
       ตัวอย่างการ insert ข้อมูลแบบ insertOne <br/>
       
