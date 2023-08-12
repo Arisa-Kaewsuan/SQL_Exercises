@@ -53,11 +53,12 @@
    -  &nbsp; คำศัพท์ที่ควรรู้เกี่ยวกับ Relational Database (RDB) ?
 
            1.  Entity = Table(ใน mysql) = Collection(ใน mongoDB) = ตาราง
-           2.  Record = Colum = Attribute = element = property = คุณลักษณะ / คอลลัม
+           2.  Record = Column(ใน mysql) = Attribute = element = property = field(ใน mongoDB) =  คุณลักษณะ / คอลลัม
            3.  Foriegn Key = 
            4.  Primary Key =
            5.  Auto increment =
            6.  การทำ .... คือ ...
+           7.  row = document = BSON = JSON = JSON Object
    <br/>
 
    -  &nbsp; SQL คืออะไร ?
@@ -140,6 +141,13 @@
                เราก็ยังจัดการข้อมูล ดูข้อมูลผ่านเว็บได้แต่แบบนี้เราจะสามารถ scale ได้ เพราะ ไม่ได้ใช้เครื่องตัวเอง วันนึงมีคนใช้โปรแกรมเรา
                มากขึ้น เรามีความต้องการ database ที่ใหญ่ขึ้น ก็สามารถกดไม่กี่คลิ๊ก ทาง mongoDB ก็จัดการให้แล้ว ไม่ต้อง restructure ใหม่
    <br/>
+
+   -  &nbsp; ช่วยอธิบายโครงสร้างการเก็บข้อมูลของ mongoDB หน่อย ?
+
+           >>  Database
+           >>  Collection
+           >>  Documents  :  ก็คือ ข้อมูล (data) ที่มีรูปแบบโครงสร้างข้อมูลเป็นแบบ JSON Object ที่มีลักษณะเป็น key-value
+  <br/>
 
 
 
