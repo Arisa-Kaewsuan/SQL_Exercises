@@ -188,6 +188,10 @@
       ตัวอย่างการ insert ข้อมูลแบบ insertOne <br/>
       
       ![ตัวอย่างการinsertข้อมูลลงmongodb](https://github.com/Arisa-Kaewsuan/SQL_Exercises/assets/87797742/0c1eae66-194b-4074-a57f-ca61018b91d2)<br/>
+
+      ตัวอย่างการ insert ข้อมูลแบบ insertMany <br/>
+
+      ![ตัวอย่างการinsertหลายrow](https://github.com/Arisa-Kaewsuan/SQL_Exercises/assets/87797742/78d01ffe-c3e3-4594-832e-531f9eec2e49)<br/>
       
       >- &nbsp; ลองลบฐานข้อมูลที่ชื่อ mydb &nbsp;:&nbsp; ใช้คำสั่ง ```db.dropDatabase("mydb")``` <br/>
       >
