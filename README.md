@@ -5,6 +5,7 @@
    -  &nbsp; ฐานข้อมูล (Database) คืออะไร ใช้ทำอะไร เกิดขึ้นมาได้ยังไง มีกี่แบบ ?
    -  &nbsp; ฐานข้อมูล (Database) มีกี่แบบ ?
    -  &nbsp; ฐานข้อมูล (Database) เกิดขึ้นมาได้ยังไง ?
+   -  &nbsp; คำศัพท์ที่ควรรู้เกี่ยวกับ Relational Database (RDB) ?
    -  &nbsp; SQL คืออะไร ?
    -  &nbsp; SQL ใช้ยังไง ?
    -  &nbsp; DBMS คืออะไร ?
