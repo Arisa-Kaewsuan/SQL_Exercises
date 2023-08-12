@@ -38,6 +38,14 @@
 
    -  &nbsp; ฐานข้อมูล (Database) เกิดขึ้นมาได้ยังไง ?
 
+   -  &nbsp; คำศัพท์ที่ควรรู้เกี่ยวกับ Relational Database (RDB) ?
+
+           1.  Entity = Table = ตาราง
+           2.  Record = Column
+           3.  Foriegn Key
+           4.  Primary Key
+           5.  Auto increment
+           6.  การทำ .... คือ ...
 
    -  &nbsp; SQL คืออะไร ?
 
