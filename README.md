@@ -12,9 +12,6 @@
    -  &nbsp; NoSQL คืออะไร ?
    -  &nbsp; Relational Database คืออะไร ?
    -  &nbsp; Data Warehouse / Data Lake / Data Storage คืออะไร ?
-   -  &nbsp; mongoDB คืออะไร ?
-   -  &nbsp; ช่วยอธิบายโครงสร้างการเก็บข้อมูลของ mongoDB หน่อย ?
-   -  &nbsp; mongoDB ใช้งานยังไง ?
 
 <br/>
 
@@ -43,7 +40,13 @@
 
 <br/>
 
-### [3.&nbsp;) &nbsp;&nbsp; Database&nbsp; Design 🔗](https://www.youtube.com/watch?v=QQk33OX5IzU&list=RDCMUCUusPZJbly3C2dS5SEWhngw&start_radio=1&rv=QQk33OX5IzU&t=0)
+### [3.&nbsp;) &nbsp;&nbsp; mongoDB&nbsp; Syntax 🔗]()
+   -  &nbsp; mongoDB คืออะไร ?
+   -  &nbsp; ช่วยอธิบายโครงสร้างการเก็บข้อมูลของ mongoDB หน่อย ?
+   -  &nbsp; mongoDB ใช้งานยังไง ?
+<br/>
+
+### [4.&nbsp;) &nbsp;&nbsp; Database&nbsp; Design 🔗](https://www.youtube.com/watch?v=QQk33OX5IzU&list=RDCMUCUusPZJbly3C2dS5SEWhngw&start_radio=1&rv=QQk33OX5IzU&t=0)
 
          comming soon . . .
 
