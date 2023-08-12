@@ -160,6 +160,7 @@
            เป็น key-value แทน ทำให้อ่านง่ายกว่า
 
            List = Array ใน mongoDB ใช้เครื่องหมาย [] เวลาเรียกใช้ต้องระบุ index ถ้าไม่อยากระบุ index ตอนเรียกใช้นิยมใช้ object {} กัน
+           เราสามารถ Export file json/csv ที่เราสร้างส่งให้เพื่อนได้ เพื่อนเอาไปใช้ ก็ import เข้ามา
    
   ![โครงสร้างของ mongoDB](https://github.com/Arisa-Kaewsuan/SQL_Exercises/assets/87797742/d68129ed-ef9e-4932-8d4d-a37335c9cb9b)
 
