@@ -13,7 +13,15 @@
       
    -  &nbsp; ฐานข้อมูล (Database) มีกี่แบบ ?
 
-           ฐานข้อมูลมี ... ประเภท คือ ... แต่ที่นิยมใช้กันในปัจจุบันมี 2 ประเภท คือ
+           ฐานข้อมูลมี 4 แบบ คือ
+               - Hierarchical Database  : โครงสร้างภายในเป็นแบบ (Architecture) Tree ทำให้แก้ไขยาก เข้าถึงยาก เปลี่ยนแปลงยาก
+               - Network Database : พัฒนามาจากแบบแรก โครงสร้าง (Architecture) ภายในเป็นแบบ Network แก้ไขง่ายขึ้น แต่มีปัยหาเก็บ
+                                    ข้อมูลซ้ำซ้อน และไม่ปลอดภัย จึงมีการพัฒนาไปเป็น relational database 
+               - Relational Database : ปลอดภัย และลดการเก็บข้อมูลซ้ำซ้อน
+               - Non-Relational Database : ...
+      
+           แต่ที่นิยมใช้กันในปัจจุบันมี 2 ประเภท คือ
+      
            1.  Relational Database (RDB) :
                -  RDBMS ใช้เก็บข้อมูลประเภท Structure Data คือ ข้อมูลที่มีโครงสร้างแน่นอน (เป็นตาราง - Table) และมีความสัมพันธ์กัน
                   ทำให้ไม่ต้องเก็บข้อมูลซ้ำซ้อนได้ เพราะ มันจะเก็บแบบแยกเป็นตารางย่อยที่เล็กที่สุด (จึงต้องมีการออกแบบฐานข้อมูล - Database Design
@@ -38,16 +46,16 @@
 
    -  &nbsp; ฐานข้อมูล (Database) เกิดขึ้นมาได้ยังไง ?
 
-           L
+           L ...
    <br/>
 
    -  &nbsp; คำศัพท์ที่ควรรู้เกี่ยวกับ Relational Database (RDB) ?
 
            1.  Entity = Table = ตาราง
-           2.  Record = Column
-           3.  Foriegn Key
-           4.  Primary Key
-           5.  Auto increment
+           2.  Record = Colum = Attribute = element = property = คุณลักษณะ / คอลลัม
+           3.  Foriegn Key = 
+           4.  Primary Key =
+           5.  Auto increment =
            6.  การทำ .... คือ ...
    <br/>
 
