@@ -57,7 +57,7 @@
            3.  Foriegn Key = 
            4.  Primary Key =
            5.  Auto increment =
-           6.  การทำ .... คือ ...
+           6.  การทำ normalization คือ ...
            7.  row = document = BSON = JSON = JSON Object
    <br/>
 
