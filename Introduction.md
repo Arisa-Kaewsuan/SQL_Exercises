@@ -96,6 +96,15 @@
          > แบบที่สองนี้จะสามารถเชื่อมต่อฐานข้อมูลได้นอกจากจะมีฐานข้อมูลแล้ว ต้องมี API/Driver/Connector ของภาษาที่เราใช้  เช่น  python - pymysql  &nbsp;&nbsp;&nbsp;java - JDBC  API ช่วยให้เราเขียน SQL ในภาษานั้นๆได้
      
    <br/>
+
+   -  &nbsp; วิธีใช้ phpMyAdmin : [เปลี่ยน Password](https://www.youtube.com/watch?v=KSqESym20ic) / import free sample data
+      -  &nbsp; โหลด xampp  >>  เปิด xampp แล้วรัน Apache(web server) กับ MySQL เป็นการบอกว่าจะใช้ web server กับฐานข้อมูล mysql
+      -  &nbsp; เข้าเว็บ localhost/phpMyAdmin
+      -  &nbsp; วิธีเปลี่ยน password
+
+              1.  xampp  >>  Explorer  >> phpMyAdmin  >>  Config.inc
+              2.  แก้ตรง Authentication type and info >> auth_type :  จาก config เป็น cookie
+              3.  refresh หน้า phpMyAdmin จะมีปุ่ม change password ขึ้นมาแล้ว
       
    -  &nbsp; DBMS คืออะไร ?
 
