@@ -8,6 +8,7 @@
    -  &nbsp; คำศัพท์ที่ควรรู้เกี่ยวกับ Relational Database (RDB) ?
    -  &nbsp; SQL คืออะไร ?
    -  &nbsp; SQL ใช้ยังไง ?
+   -  &nbsp; วิธีใช้ phpMyAdmin : เปลี่ยน Password / import free sample data
    -  &nbsp; DBMS คืออะไร ?
    -  &nbsp; NoSQL คืออะไร ?
    -  &nbsp; Relational Database คืออะไร ?
