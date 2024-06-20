@@ -1,19 +1,5 @@
 # DATABASE&nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> 
 
-### [1.&nbsp;) &nbsp;&nbsp; Introduction 🔗](https://github.com/Arisa-Kaewsuan/SQL_Exercises/blob/main/Introduction.md)
-
-   -  &nbsp; ฐานข้อมูล (Database) คืออะไร ใช้ทำอะไร เกิดขึ้นมาได้ยังไง มีกี่แบบ ?
-   -  &nbsp; ฐานข้อมูล (Database) มีกี่แบบ ?
-   -  &nbsp; ฐานข้อมูล (Database) เกิดขึ้นมาได้ยังไง ?
-   -  &nbsp; คำศัพท์ที่ควรรู้เกี่ยวกับ Relational Database (RDB) ?
-   -  &nbsp; SQL คืออะไร ?
-   -  &nbsp; SQL ใช้ยังไง ?
-   -  &nbsp; วิธีใช้ phpMyAdmin : เปลี่ยน Password / import free sample data
-   -  &nbsp; DBMS คืออะไร ?
-   -  &nbsp; NoSQL คืออะไร ?
-   -  &nbsp; Relational Database คืออะไร ?
-   -  &nbsp; Data Warehouse / Data Lake / Data Storage คืออะไร ?
-
 <br/>
 
 ### [2.&nbsp;) &nbsp;&nbsp; SQL&nbsp; Syntax 🔗](https://github.com/Arisa-Kaewsuan/SQL_Exercises/blob/main/sqlSyntax.md)
